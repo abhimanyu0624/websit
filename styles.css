@@ -1,0 +1,202 @@
+body {
+    margin:0;
+    text-align: center;
+    color:#40514e;
+}
+h1 {
+    position:relative;
+    top:100px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color:#1D5D9B;
+    font-size:3.3rem;
+    animation-name:color;
+    animation-duration:2s;
+}
+@keyframes color {
+    from{
+        color:#E0F4FF;
+    }
+    to{
+        color:#1D5D9B;
+    }
+}
+h2{
+    font-family: 'Alegreya Sans SC' , sans-serif;
+    color:#1D5D9B;
+}
+h3{
+    font-family: 'Alegreya Sans SC' , sans-serif;
+    color:#1D5D9B;
+}
+hr{
+    border:dotted 7px;
+    border-bottom:none;
+    color:#eaf6f6;
+    width:5%;
+    margin:100px auto;
+}
+.intro{
+    width:30%;
+    margin:auto;
+}
+p{
+    font-family: 'Red Hat Text', sans-serif;
+    line-height:2;
+}
+.mail{
+    width:30%;
+    margin:40px auto;
+}
+.subtitle{
+    position:relative;
+    top: 107px;px;
+    color:rgb(77, 87, 151);
+    font-family:'Red Hat Text', sans-serif;
+    font-size:1.6rem;
+    animation-name:clr;
+    animation-duration:2s;
+}
+@keyframes clr {
+    from{
+        color:#E0F4FF;
+    }
+    to{
+        color:rgb(77, 87, 151);
+    }
+    
+}
+.web{
+    color:rgb(70, 139, 160);
+    animation-name:colr;
+    animation-duration:2s;
+}
+@keyframes colr {
+    from{
+        color:#E0F4FF;
+    }
+    to{
+        color:rgb(70, 139, 160);
+    }
+}
+.top-container{
+    background-color:#E0F4FF;
+    position:relative;
+    padding-top:100px;
+    height: 650px;
+    width:100%; 
+}
+.middle-container{
+    margin: 100px 0;
+}
+.bottom-container{
+    margin:100px 0 0 0;
+    padding:50px 0 20px 0;
+    background-color:#52D3D8;
+}
+.mountain{
+    position:absolute;
+    right: 400px;
+    bottom:0;
+}
+.cloud-1{
+    position:absolute;
+    right:425px;
+    top:170px;
+    animation-name:drag;
+    animation-duration:2s;
+
+}
+@keyframes drag {
+    from{
+        right:270px;
+    }
+    to{
+        right:425px;
+    }
+}
+.cloud-2{
+    position:absolute;
+    bottom:300px;
+    left:450px;
+    animation-name:move;
+    animation-duration:2s;
+
+    
+}
+@keyframes move {
+    from{
+        left:300px;
+    }
+    to{
+        left:450px;
+    }
+}
+.skill-row{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align:left;
+    line-height:2;
+}
+.web-dev{
+    width:25%;
+    float:left;
+    margin-right:30px;
+}
+.gym{
+    width:25%;
+    float:right;
+    margin-left:30px;
+}
+.btn {
+    background: #00c5fc;
+    background-image: -webkit-linear-gradient(top, rgb(70, 139, 160), #1D5D9B);
+    background-image: -moz-linear-gradient(top, rgb(70, 139, 160), #1D5D9B);
+    background-image: -ms-linear-gradient(top, rgb(70, 139, 160), #1D5D9B);
+    background-image: -o-linear-gradient(top, rgb(70, 139, 160), #1D5D9B);
+    background-image: linear-gradient(to bottom, rgb(70, 139, 160), #1D5D9B);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    text-shadow: 1px 1px 3px #666666;
+    -webkit-box-shadow: 2px 1px 4px #666666;
+    -moz-box-shadow: 2px 1px 4px #666666;
+    box-shadow: 2px 1px 4px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: white;
+    background-image: -webkit-linear-gradient(top, #52D3D8, #0682d4);
+    background-image: -moz-linear-gradient(top, #52D3D8, #0a77c1);
+    background-image: -ms-linear-gradient(top, #52D3D8, #3498db);
+    background-image: -o-linear-gradient(top, #52D3D8, #3498db);
+    background-image: linear-gradient(to bottom, #52D3D8, #3498db);
+    text-decoration: none;
+  }
+  .linkedin{
+    color:#1d5d9b;
+    font-family: 'Red Hat Text', sans-serif;
+    text-decoration:none;
+    padding:0 20px 0 20px;
+  }
+  .linkedin:hover{
+    color:#96EFFF;
+  }
+  .instagram{
+    color:#1d5d9b;
+    font-family: 'Red Hat Text', sans-serif;
+    text-decoration:none;
+    padding:0 20px 0 20px;
+  }
+  .instagram:hover{
+    color:#96EFFF;
+  }
+  .abhi{
+    color:#1d5d9b;
+    font-size:75%;
+    padding:20px auto;
+  }
